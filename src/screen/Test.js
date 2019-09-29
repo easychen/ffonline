@@ -70,7 +70,7 @@ export default class Test extends Component
 
     convert()
     {
-        
+        this.setState({"show_loading":true});
         
         var fileReader1 = new FileReader();
         fileReader1.onload = (e)=> {
